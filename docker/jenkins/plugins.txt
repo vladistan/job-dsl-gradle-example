@@ -1,5 +1,5 @@
 ghprb
-github
+github 1.12.0
 cloudbees-folder
 matrix-project
 github-api
@@ -14,7 +14,6 @@ git
 mailer
 git-client
 ssh-credentials
-
 structs
 display-url-api
 workflow-scm-step
@@ -22,4 +21,7 @@ workflow-step-api
 bouncycastle-api
 job-dsl 1.58
 gradle 1.26
+email-ext 2.40.5
+groovy-postbuild 2.2
 grails
+workflow-aggregator 2.1
