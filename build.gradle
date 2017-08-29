@@ -1,13 +1,5 @@
 apply plugin: 'groovy'
 
-buildscript {
-    dependencies {
-        classpath files('gradle/gradle-trust-all.jar')
-    }
-}
-
-apply plugin: 'trust-all'
-
 sourceSets {
     jobs {
         groovy {
