@@ -44,8 +44,8 @@ dependencies {
     testCompile 'org.jenkins-ci.plugins:cloudbees-folder:5.0@jar'
 
     // plugins to install in test instance
-    testPlugins 'org.jenkins-ci.plugins:ghprb:1.31.4'
-    testPlugins 'com.coravy.hudson.plugins.github:github:1.19.0'
+    testPlugins 'org.jenkins-ci.plugins:ghprb:1.39.0'
+    testPlugins 'com.coravy.hudson.plugins.github:github:1.28.0'
     testPlugins 'org.jenkins-ci.plugins:cloudbees-folder:5.0'
 
     // for the RestApiScriptRunner
@@ -92,5 +92,5 @@ task rest(dependsOn: 'classes', type: JavaExec) {
 }
 
 task wrapper(type: Wrapper) {
-    gradleVersion = '3.4.1'
+    gradleVersion = '4.1'
 }
