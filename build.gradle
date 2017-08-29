@@ -40,13 +40,25 @@ dependencies {
     // Job DSL plugin including plugin dependencies
     testCompile "org.jenkins-ci.plugins:job-dsl:${jobDslVersion}"
     testCompile "org.jenkins-ci.plugins:job-dsl:${jobDslVersion}@jar"
+    testCompile 'org.jenkins-ci.plugins:jackson2-api:2.7.3@jar'
     testCompile 'org.jenkins-ci.plugins:structs:1.2@jar'
     testCompile 'org.jenkins-ci.plugins:cloudbees-folder:5.0@jar'
+    testCompile 'org.jenkins-ci.plugins:ghprb:1.39.0@jar'
+    testCompile 'org.jenkins-ci.plugins:token-macro:2.2@jar'
+    testCompile 'org.jenkins-ci.plugins:junit:1.21'
+
 
     // plugins to install in test instance
+    testPlugins 'org.jenkins-ci.plugins:jackson2-api:2.7.3@jar'
     testPlugins 'org.jenkins-ci.plugins:ghprb:1.39.0'
     testPlugins 'com.coravy.hudson.plugins.github:github:1.28.0'
     testPlugins 'org.jenkins-ci.plugins:cloudbees-folder:5.0'
+    testPlugins 'org.jenkins-ci.plugins:ghprb:1.39.0'
+    testPlugins 'org.jenkins-ci.plugins:token-macro:2.2'
+    testPlugins 'org.jenkins-ci.plugins:junit:1.21'
+
+
+
 
     // for the RestApiScriptRunner
     compile('org.codehaus.groovy.modules.http-builder:http-builder:0.7.2') {
