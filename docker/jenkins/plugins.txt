@@ -1,0 +1,25 @@
+ghprb
+github
+cloudbees-folder
+matrix-project
+github-api
+ssh-agent
+plain-credentials
+junit
+script-security
+scm-api
+token-macro
+credentials
+git
+mailer
+git-client
+ssh-credentials
+
+structs
+display-url-api
+workflow-scm-step
+workflow-step-api
+bouncycastle-api
+job-dsl 1.58
+gradle 1.26
+grails
